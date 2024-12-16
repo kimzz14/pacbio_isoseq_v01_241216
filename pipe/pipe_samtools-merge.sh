@@ -2,7 +2,7 @@
 readID=$1
 threadN=$2
 
-readDir=/archive/kimzz14/SRA_RAW/NAAS/Triticum_aestivum/Keumkang/Iso-Seq/data
+readDir=/archive/kimzz14/SRA_RAW/NAAS/Triticum_aestivum/Keumkang/IsoSeq/data
 ############################################################################################
 
 samtools merge \
