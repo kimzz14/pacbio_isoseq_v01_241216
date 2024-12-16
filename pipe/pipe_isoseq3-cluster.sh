@@ -11,8 +11,8 @@ isoseq3 \
     ${readID}.subreads.ccs.demux.primer_5p--primer_3p.isoform.bam \
     --numThreads ${threadN} \
     --verbose \
-    1> ${readID}.subreads.ccs.demux.primer_5p--primer_3p.isoform.bam.log \
-    2> ${readID}.subreads.ccs.demux.primer_5p--primer_3p.isoform.bam.err
+    1> ${readID}.subreads.ccs.demux.primer_5p--primer_3p.isoform.log \
+    2> ${readID}.subreads.ccs.demux.primer_5p--primer_3p.isoform..err
 
 #isoseq cluster [options] <flnc.bam|xml> <transcripts.bam|xml>
 
