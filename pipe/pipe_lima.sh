@@ -12,8 +12,8 @@ lima \
     --num-threads ${threadN} \
     --isoseq \
     --dump-clips \
-    1> ${readID}.subreads.ccs.demux.bam.log \
-    2> ${readID}.subreads.ccs.demux.bam.err
+    1> ${readID}.subreads.ccs.demux.log \
+    2> ${readID}.subreads.ccs.demux.err
 
 #--no-pbi \
 #--isoseq                              Activate specialized IsoSeq mode.
