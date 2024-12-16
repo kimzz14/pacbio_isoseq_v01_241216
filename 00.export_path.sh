@@ -1,1 +1,1 @@
-conda activate TEST-241215
+conda activate pacbio_isoseq_v01_241216
