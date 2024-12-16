@@ -11,7 +11,7 @@ ccs \
     --numThreads ${threadN} \
     --noPolish \
     --minPasses 1 \
-    --reportFile ${readID}.subreads.ccs.report \
+    --reportFile ${readID}.subreads.ccs.bam.report \
     1> ${readID}.subreads.ccs.bam.log \
     2> ${readID}.subreads.ccs.bam.err
 
