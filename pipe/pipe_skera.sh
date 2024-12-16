@@ -6,11 +6,11 @@ readDir=/test
 ############################################################################################
 
 skera split \
-       ${readID}.subreads.ccs.bam \
+       ${readID}.bam \
        mas16_primers.fasta \
-       ${readID}.subreads.ccs.skera.bam 
-    1> ${readID}.subreads.ccs.skera.bam.log \
-    2> ${readID}.subreads.ccs.skera.bam.err
+       ${readID}.skera.bam 
+    1> ${readID}.skera.bam.log \
+    2> ${readID}.skera.bam.err
 
 #https://skera.how/
 #https://skera.how/adapters
