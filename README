@@ -11,5 +11,8 @@ conda install lima=2.12.0=h9ee0642_1
 conda install isoseq=4.2.0=h9ee0642_0
 #bioconda/linux-64::isoseq-4.2.0-h9ee0642_0
 
+conda install pbskera
+#bioconda/noarch::pbskera-1.3.0-hdfd78af_0
+
 conda install samtools
 #bioconda/linux-64::samtools-1.21-h96c455f_1

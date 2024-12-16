@@ -7,12 +7,12 @@ readDir=/test
 
 isoseq3 \
     cluster \
-       ${readID}.subreads.ccs.demux.primer_5p--primer_3p.bam \
-       ${readID}.subreads.ccs.demux.primer_5p--primer_3p.isoform.bam \
+       ${readID}.bam \
+       ${readID}.isoform.bam \
     --num-threads ${threadN} \
     --verbose \
-    1> ${readID}.subreads.ccs.demux.primer_5p--primer_3p.isoform.log \
-    2> ${readID}.subreads.ccs.demux.primer_5p--primer_3p.isoform.err
+    1> ${readID}.isoform.log \
+    2> ${readID}.isoform.err
 
 #isoseq cluster [options] <flnc.bam|xml> <transcripts.bam|xml>
 

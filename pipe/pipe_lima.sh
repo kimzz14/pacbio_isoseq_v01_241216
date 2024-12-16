@@ -6,14 +6,14 @@ readDir=/test
 ############################################################################################
 
 lima \
-    ${readID}.subreads.ccs.bam \
+    ${readID}.bam \
     primers.fasta \
-    ${readID}.subreads.ccs.demux.bam \
+    ${readID}.demux.bam \
     --num-threads ${threadN} \
     --isoseq \
     --dump-clips \
-    1> ${readID}.subreads.ccs.demux.log \
-    2> ${readID}.subreads.ccs.demux.err
+    1> ${readID}.demux.log \
+    2> ${readID}.demux.err
 
 #--no-pbi \
 #--isoseq                              Activate specialized IsoSeq mode.
