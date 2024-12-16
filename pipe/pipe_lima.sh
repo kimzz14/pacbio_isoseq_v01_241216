@@ -9,7 +9,7 @@ lima \
     ${readID}.subreads.ccs.bam \
     primers.fasta \
     ${readID}.subreads.ccs.demux.bam \
-    --numThreads ${threadN} \
+    --num-threads ${threadN} \
     --isoseq \
     --dump-clips \
     1> ${readID}.subreads.ccs.demux.bam.log \
