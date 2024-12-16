@@ -1,0 +1,15 @@
+conda create -n pacbio_isoseq_v01_241216
+
+conda activate pacbio_isoseq_v01_241216
+
+conda install pbccs=3.3.0
+#bioconda/linux-64::pbccs-3.3.0-0
+
+conda install lima=2.12.0=h9ee0642_1
+#bioconda/linux-64::lima-2.12.0-h9ee0642_1
+
+conda install isoseq=4.2.0=h9ee0642_0
+#bioconda/linux-64::isoseq-4.2.0-h9ee0642_0
+
+conda install samtools
+#bioconda/linux-64::samtools-1.21-h96c455f_1

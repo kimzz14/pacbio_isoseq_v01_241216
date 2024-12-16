@@ -1,0 +1,1 @@
+sh pipe/run_isoseq.sh RC0_01C 24
